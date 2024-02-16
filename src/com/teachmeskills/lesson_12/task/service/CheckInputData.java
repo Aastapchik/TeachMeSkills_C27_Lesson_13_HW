@@ -17,7 +17,6 @@ public class CheckInputData {
             System.out.println("Введен некорректный логин.");
         } catch (WrongPasswordException e2) {
             System.out.println("Введен некорректный пароль");
-
         } catch (Exception e3) {
             System.out.println("Системная ошибка. Попробуйте позже.");
         }
